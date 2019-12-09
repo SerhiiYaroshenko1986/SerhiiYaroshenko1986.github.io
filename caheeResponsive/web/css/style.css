@@ -1,0 +1,182 @@
+    @media screen and (max-width:800px) {
+        .form {
+            margin: 0;
+            width: 100%;
+        }
+        .form__details {
+            margin: 5%;
+            width: 100%;
+        }
+        .title__description {
+            width: 90%;
+        }
+        .title__scroll {
+            margin-top: -30%;
+        }
+        .page__pic img {
+            transform: scale(0.8);
+        }
+        .ourServises .ourServises__des .ourServises__list .ourServises__item {
+            transform: scale(0.9);
+            font-size: 18px;
+        }
+        .page__header_title {
+            font-size: 70px;
+            text-align: center;
+        }
+        .page__header_paragraf {
+            text-align: center;
+        }
+        .ourServises .outServise__title {
+            text-align: center;
+        }
+        .gallery {
+            padding: 0;
+        }
+        .gallery .gallery__title {
+            text-align: center;
+        }
+        .subscribe .subscribe__form .subscribe__form_text {
+            text-align: center;
+            padding-right: 5%;
+        }
+        .subscribe .subscribe__form .subscribe__form_btn {
+            margin: 5% auto 0;
+            text-align: center;
+        }
+        .gallery .gallery__images .gallery__images_pos1 {
+            max-width: 95%;
+            margin: 0 auto 10px;
+        }
+        .gallery .gallery__title .gallery__text {
+            width: 100%;
+        }
+        .form__details_inp {
+            max-width: 500px;
+            margin: 1%;
+        }
+        .page__pic img {
+            width: 100%;
+        }
+    }
+    
+    @media screen and (max-width:700px) {
+        .gallery .gallery__images .gallery__images_pos1 img {
+            max-width: 100%;
+        }
+        .details {
+            margin: 0;
+            padding-left: 5%;
+        }
+        .header__title {
+            font-size: 70px;
+        }
+        .header__subtitle {
+            text-align: center;
+        }
+        .form__details {
+            margin-bottom: 5%;
+        }
+        .blog__subheader {
+            text-align: center;
+            padding-right: 5%;
+        }
+        .subscribe .subscribe__form .subscribe__form_field {
+            width: 90%;
+            margin-right: 0;
+        }
+        .gallery__subimages_pos img {
+            max-width: 100%;
+        }
+        .menu__conteiner1 img,
+        .menu__conteiner2 img,
+        .menu__conteiner3 img {
+            max-width: 100%;
+        }
+        .menu__conteiner1,
+        .menu__conteiner2,
+        .menu__conteiner3 {
+            max-width: 100%;
+            font-size: 17px;
+        }
+        .menu__hamburger {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+        .page__pic img {
+            transform: scale(0.7);
+        }
+    }
+    
+    @media screen and (max-width:450px) {
+        .title__btn {
+            margin: 0 auto;
+        }
+        .subscribe .subscribe__form .subscribe__form_field {
+            width: 90%;
+        }
+        .gallery .gallery__subimages .gallery__subimages_pos {
+            margin: 10px;
+        }
+        .page__header_paragraf {
+            font-size: 15px;
+        }
+        .ourServises .ourServises__des .ourServises__list .ourServises__item {
+            font-size: 18px;
+        }
+        .ourServises .outServise__title {
+            font-size: 70px;
+        }
+        .gallery .gallery__images .gallery__images_pos2 {
+            margin: 0 auto;
+            max-width: 95%;
+        }
+        .gallery .gallery__title {
+            padding: 0;
+        }
+        .gallery .gallery__images .gallery__images_pos3 {
+            margin: 0 auto 10px;
+        }
+        .gallery .gallery__images .gallery__images_pos1 {
+            margin: 0 auto 30px;
+        }
+        .menu__conteiner1,
+        .menu__conteiner2,
+        .menu__conteiner3 {
+            max-width: 100%;
+        }
+        .gallery__subimages_pos {
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+            align-self: flex-start;
+        }
+        .subscribe__form {
+            margin-left: 5%;
+        }
+        .blog__container {
+            padding-left: 10%;
+        }
+        .footerContainer {
+            flex-direction: column;
+        }
+        .gallery .gallery__images .gallery__images_pos1 {
+            margin: 0 auto 10px;
+        }
+        .menu__slogan {
+            font-size: 17px;
+            top: 120px;
+        }
+        .menu__author {
+            top: 180px;
+        }
+        .menu__conteiner1,
+        .menu__conteiner2,
+        .menu__conteiner3 {
+            margin-right: 10%;
+        }
+    }
+    
+    @media screen and (max-width:380px) {}
